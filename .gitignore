@@ -1,0 +1,21 @@
+# Entorno Virtual de Python
+# Todos los archivos específicos de mi 
+# sistema operativo. Se puede recrear con 'pip install -r requirements.txt'.
+.venv/
+
+# Caché de Python
+# Archivos compilados que Python crea automáticamente para mejorar el rendimiento.
+# No son parte del código fuente.
+__pycache__/
+*.pyc
+
+# Archivos de configuración del editor de código (Buena práctica)
+.vscode/
+.idea/
+
+# Archivos con información sensible (¡MUY IMPORTANTE!)
+# En un proyecto profesional, las contraseñas no estarían en el código,
+# sino en archivos como .env o config.ini, que SIEMPRE deben ser ignorados.
+.env
+config.ini
+*.log
